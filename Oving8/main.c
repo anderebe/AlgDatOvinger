@@ -1,6 +1,16 @@
 #include <stdio.h>
+#include <string.h>
+
+
 
 int main() {
-    printf("Hello, World! Oving 8 is a go. NOw\n");
+    //FILE* file = fopen("flow1", "r");
+    //if (file == NULL) {
+    //   printf("Unable to open file.\n");
+    //   return 1;
+    //
+
+    char word[] = "rabarbra";
     return 0;
+
 }
