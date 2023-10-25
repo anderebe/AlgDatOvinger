@@ -107,7 +107,7 @@ int edmund_karp(){
 
 int main() {
 
-    FILE* file = fopen("/Users/bergan/Library/CloudStorage/OneDrive-NTNU/DataB2/AlgDatGit/AlgDat/Oving7/flow_1.txt", "r");
+    FILE* file = fopen("flow_1.txt", "r");
     if (file == NULL) {
         printf("Unable to open file.\n");
         return 1;
