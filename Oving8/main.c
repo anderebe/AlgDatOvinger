@@ -29,6 +29,7 @@ typedef struct{
 
 
 int main() {
+
     FILE* file = fopen("flow1", "r");
     //if (file == NULL) {
     //   printf("Unable to open file.\n");
@@ -38,7 +39,6 @@ int main() {
     for (int i = 0; i < strlen(word), i++){
 
     }
-
     return 0;
 
 }
