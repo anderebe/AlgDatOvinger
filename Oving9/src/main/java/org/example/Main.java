@@ -2,7 +2,11 @@ package org.example;
 
 public class Main {
 
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+    static String nodeFileName = "src/main/resources/noder.txt";
+    static String edgeFileName = "src/main/resources/kanter.txt";
+    static FileHandler handler = new FileHandler();
+
+    public static void main(String[] args){
+        Graph graph = handler.readFile(nodeFileName, edgeFileName);
     }
 }
