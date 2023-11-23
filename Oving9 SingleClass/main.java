@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+//** Created by Anders Emil Bergan **//
 public class main{
     public static void main(String[] args){
 
@@ -91,9 +92,9 @@ public class main{
             System.out.println("Charging stations the closest to Orkanger:");
             Arrays.stream(ladestasjoner).forEach(s -> System.out.println(" - " + s.name + ": " + formatTime(s.interestTime)));
             System.out.print("\n\nDrinking places the closest to Trondheim Camping: ");
-            Arrays.stream(drikkesteder).forEach(s -> System.out.print(" - " + s.name + ": " + formatTime(s.interestTime)));
+            Arrays.stream(drikkesteder).forEach(s -> System.out.println(" - " + s.name + ": " + formatTime(s.interestTime)));
             System.out.print("\n\nEating places the closest to Hotell Östersund: ");
-            Arrays.stream(spisesteder).forEach(s -> System.out.print(" - " + s.name + ": " + formatTime(s.interestTime)));
+            Arrays.stream(spisesteder).forEach(s -> System.out.println(" - " + s.name + ": " + formatTime(s.interestTime)));
 
         }  catch (IOException e){
             e.printStackTrace();
